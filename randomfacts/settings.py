@@ -84,15 +84,13 @@ WSGI_APPLICATION = 'randomfacts.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'randomfact',
-        'USER': 'postgres',
-        'PASSWORD': 'haleemah18',
-        'HOST':'localhost',
-        'PORT': 5433,
+        'NAME': 'random_fact_db',
+        'USER': 'random_fact_db_user',
+        'PASSWORD': 'Uwe7w2Cvx78oVO8MLBF7KGv9zXYXZ89K',
+        'HOST':'dpg-d3tptvk9c44c73e7ohlg-a.oregon-postgres.render.com',
+        'PORT': 5432,
     }
 }
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
