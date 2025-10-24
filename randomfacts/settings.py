@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-69wmg495)#+^njj52a95--sq2_^61)fi(ze*dn8$dxb42=ndda
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['haleemah-fact-site.onrender.com', 'localhost']
 
 
 # Application definition
